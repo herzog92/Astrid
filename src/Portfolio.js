@@ -20,12 +20,12 @@ class Portfolio extends Component {
           {
             id: 1,
             title: "     und heraus",
-            text: "Wkräfte dürfnisse anpassen. "
+            text: "Wkräfte . "
           },
           {
             id: 2,
             title: "Teamkompetenz e",
-            text: "Wir gen großen Werttierung."
+            text: "Wir gen."
           },
           {
             id: 3,

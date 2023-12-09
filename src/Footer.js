@@ -11,7 +11,7 @@ function Footer() {
                 {/* Section de contact */}
                 <div className="footer-section">
                     <h4>Kontakt</h4>
-<<<<<<< HEAD
+
                     <span>Email: astrid.thom1@gmx.de</span>
                     <span>Email: herzogmoffo@gmail.com</span>
                     <span>Postanschrift: Bessemerstr 9, 90411 Nürnberg</span>
@@ -33,7 +33,7 @@ function Footer() {
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
                     </div>
->>>>>>> c6a50916993aa703b2968fcdb94078a948dccb38
+                   
                 <div className="footer-section">
                     <h4>Dienstleistungen</h4>
                     <ul>
@@ -54,7 +54,7 @@ function Footer() {
                     <span>von 7 bis 20 Uhr</span>
                 </div>
             </div>
-        </div>
+      
     );
 }
 

@@ -3,7 +3,7 @@ import './Home.css';
 
 function Home ()  {
     const imageSources = [
-<<<<<<< HEAD
+
         "/image031.webp",
         "/image032.webp",
         "/image033.webp",
@@ -14,7 +14,7 @@ function Home ()  {
         "/image038.webp",
         
         // ... autres sources d'images ...
-=======
+
         "/image4.webp",
         "/image01.webp",
         "/image03.webp",
@@ -25,7 +25,7 @@ function Home ()  {
         "/image5.webp",
         "/image6.webp",
         "/image7.webp",
->>>>>>> c6a50916993aa703b2968fcdb94078a948dccb38
+
     ];
     const sliderRef = useRef(null);
 
