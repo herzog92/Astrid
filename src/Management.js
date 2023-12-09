@@ -23,7 +23,7 @@ function Management() {
           <p className="texta1">Mit unserem IT Risiko Management minimieren Sie potenzielle Gefahren und gewährleisten die Sicherheit Ihrer digitalen Assets. Wir identifizieren Risiken, bewerten deren Auswirkungen und entwickeln maßgeschneiderte Strategien, um Ihr Unternehmen widerstandsfähiger gegenüber IT-bezogenen Herausforderungen zu machen. Schützen Sie Ihr Unternehmen mit unseren präventiven IT-Risiko Management-Lösungen.</p>
         </div>
         <div className="boxa2">
-          <h4 className="titlea1">Projektplanung und -Koordination: Effektives IT Projektmanagement</h4>
+          <h4 className="titlea1">Projektplanung und Koordination: Effektives IT Projektmanagement</h4>
           <p className="texta1">Optimieren Sie Ihre Projektabwicklung durch unsere professionelle Projektplanung und -koordination. Wir bieten umfassende Dienstleistungen, von der Definition der Projektziele bis zur Überwachung des Fortschritts. Verlassen Sie sich auf unsere Fähigkeiten, um effektives IT Projektmanagement zu gewährleisten und Ihren Projekten einen klaren und effizienten Rahmen zu geben.</p>
         </div>
         <div className="boxa3">
