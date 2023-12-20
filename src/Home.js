@@ -68,8 +68,8 @@ function Home ()  {
             <div className=" sectiona1">
                 <img src="/image039.webp" alt="Visual representation" className="section1-img" />
                 <div className="sectiona1-text">
-                    <h2>IT-Sicherheitsexperten: Pentesting und Projektmanagement</h2>
-                    Schützen Sie Ihr Unternehmen vor digitalen Bedrohungen mit unseren fortschrittlichen Pentesting-Services. Unsere Experten identifizieren und beseitigen potenzielle Schwachstellen, während unser Projektmanagement eine nahtlose Integration dieser Lösungen gewährleistet - für eine robuste Sicherheit Ihres Unternehmens.
+                    <h2>Willkommen bei ATS Ihr Experte für Informationssicherheit</h2>
+                    Unsere Dienstleistungen umfassen umfassendes Changemanagement, Risikomanagement und Notfallmanagement, basierend auf den TISAX-Standard für Informationssicherheit der OEMs nach VDA-ISA 5.1 und 6.0. Unser Fokus liegt auf dem Management der Informationssicherheit nach ISO 27001 und der Vorbereitung auf die Zertifizierung. Hier sind einige unserer Schwerpunkte.
                 </div>
             </div>
 
@@ -98,8 +98,8 @@ function Home ()  {
             
             <div className="sectiona2">
                 <div className="sectiona2-text">
-                    <h2>Cloud Computing und Datenschutz: Fokussierte Vertraulichkeit</h2>
-                    Entdecken Sie die Vorteile des Cloud Computing mit unserer datenschutzorientierten Herangehensweise. Unsere Datenschutzexpertise stellt sicher, dass Ihre sensiblen Daten sicher im Cloud bleiben. Wir bieten hochmoderne Lösungen, um die Einhaltung der Datenschutzstandards zu gewährleisten und Ihrem Unternehmen die sichere Nutzung der Cloud zu ermöglichen.
+                    <h2>Informationssicherheitsmanagement und Zertifizierungsvorbereitung</h2>
+                    Unsere Experten unterstützen Sie bei der Umsetzung von Mindestanforderungen an die Führung, Organisation, Planung, Unterstützung, Betrieb und Verbesserung. Wir bereiten Ihr Unternehmen auf die ISO 27001-Zertifizierung vor und gewährleisten eine lückenlose Umsetzung.
                 </div>
                 <img src="/image012.webp" alt="Visual representation" className="section1-img" />
             </div>
@@ -122,8 +122,8 @@ function Home ()  {
             <div className="sectiona3">
                 <img src="/image005.webp" alt="Visual representation" className="section1-img"/>
                 <div className="sectiona3-text">
-                    <h2>Webentwicklung und SEO: Online-Präsenz Optimieren</h2>
-                    Unser Webentwicklungsteam erstellt innovative und leistungsstarke Websites, die Ihr Unternehmen optimal online präsentieren. Mit fortschrittlichen SEO-Strategien optimieren wir Ihre Online-Sichtbarkeit, ziehen qualifizierten Traffic an und bringen Ihr Unternehmen mit unserer Expertise in Webentwicklung und IT-Sicherheit auf die nächste Stufe.
+                    <h2> Changemanagement und Risikomanagement.</h2>
+                    Wir bieten Unterstützung bei der Implementierung von organisatorischen und technischen Vorgaben zur Steigerung der Informationssicherheit. Unsere Dienstleistungen umfassen die Überwachung von IT-Sicherheitsstrukturen, Risikobewertungen und die Begleitung von internen sowie externen Audits.
                 </div>
             </div>
 
