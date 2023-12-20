@@ -18,5 +18,12 @@ Notfallmanagement (BCM) und Krisenmanagement
 IT Support
 
 
+-->pour updaten
+git branch
+git add .
+git commit -m "push 1i"
+git push astrid main
+
+
 
 

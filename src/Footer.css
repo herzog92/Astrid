@@ -9,6 +9,9 @@
     padding: 20px 0;
     color: #0087b8;
     font-family: Arial, sans-serif;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Contenu du footer */
@@ -65,7 +68,9 @@
 
 /* Écrans moyens (tablettes) */
 @media only screen and (max-width: 768px) {
-    .footer-section {
+    .footer-section,
+    .footer {
+        flex-direction: column;
         flex-basis: 50%; /* Prend 50% de la largeur de l'écran */
     }
 }

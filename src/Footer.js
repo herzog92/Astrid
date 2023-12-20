@@ -20,16 +20,12 @@ function Footer() {
                 </div>
                 
                 {/* Section de services */}
-=======
-                    <span>Email:  kontakt@all-activity-group.de </span>
-                    <span>Postanschrift : Luitpold str 11.  92637 Weiden</span>
-                    <span>Telefonnummer:+49 176 76707335 </span>
-                    
+
                     
                 </div>
                 <div className="footer-section social-media-section">
                     <h4>Folgen Sie uns</h4>
-                    <a href="https://www.facebook.com/profile.php?id=61553730392193" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
                     </div>
