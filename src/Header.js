@@ -32,8 +32,8 @@ function Header() {
                         <span onClick={toggleDropdown}>Leistungen</span>
                         <ul className={`dropdown ${dropdownOpen ? "show" : ""}`}>
                            
-                            <li><Link to="/Cloudd" onClick={toggleMenu}>Cloud Computing & Datenschutz</Link></li>
-                            <li><Link to="/Netzsich" onClick={toggleMenu}>IT-Netzwerk&Sicherheit</Link></li>
+                            <li><Link to="/Cloudd" onClick={toggleMenu}>Cloud Computing </Link></li>
+                            <li><Link to="/Netzsich" onClick={toggleMenu}>IT-Netzwerk</Link></li>
                             <li><Link to="/Management" onClick={toggleMenu}>Management</Link></li>
                             <li><Link to="/Entwicklung" onClick={toggleMenu}>Web-Entwicklung</Link></li>
                             <li><Link to="/Security" onClick={toggleMenu}>IT-Security</Link></li>

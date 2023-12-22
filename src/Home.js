@@ -12,19 +12,6 @@ function Home ()  {
         "/image036.webp",
         "/image037.webp",
         "/image038.webp",
-        
-        // ... autres sources d'images ...
-
-        "/image4.webp",
-        "/image01.webp",
-        "/image03.webp",
-        "/image17.webp",
-        "/image18.webp",
-        "/image9.webp",
-        "/image8.webp",
-        "/image5.webp",
-        "/image6.webp",
-        "/image7.webp",
 
     ];
     const sliderRef = useRef(null);
@@ -103,7 +90,12 @@ function Home ()  {
                 </div>
                 <img src="/image012.webp" alt="Visual representation" className="section1-img" />
             </div>
-
+            <div className="section001-style">
+          <h1>Netzwerkanalyse für Maximale Sicherheit</h1>
+          <p>
+          Unsere umfassende Netzwerkanalyse ist der Schlüssel zur Maximierung der Sicherheit Ihres Unternehmens. Durch sorgfältige Prüfung und Detektion von Sicherheitslücken identifizieren wir potenzielle Risiken in Ihrem Netzwerk. Unser Team von Experten bietet maßgeschneiderte Lösungen, um diese Schwachstellen zu beheben und ein Höchstmaß an Sicherheit für Ihr Unternehmensnetzwerk zu gewährleisten. Vertrauen Sie auf unsere Fachkenntnisse, um Ihr Netzwerk zu schützen und die digitale Infrastruktur Ihres Unternehmens zu stärken..
+          </p>
+        </div>   
 
 
             <div className="section02">

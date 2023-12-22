@@ -1,11 +1,11 @@
 /* Variables */
 :root {
-    --footer-column-gap: 10px; /* Espacement entre les colonnes */
+    --footer-column-gap: 30px; /* Espacement entre les colonnes */
 }
 
 /* Styles de base pour le footer */
-.footer {
-    background-color: rgb(6, 49, 63);
+.footer1 {
+    background-color: rgb(2, 26, 33);
     padding: 20px 0;
     color: #0087b8;
     font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@
 }
 
 /* Contenu du footer */
-.footer-content {
+.footer-content1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,10 +27,10 @@
 }
 
 /* Sections du footer */
-.footer-section {
+.footer-section1 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     flex: 1; /* Flexibilité pour occuper l'espace disponible */
     min-width: 200px; /* Largeur minimale pour éviter une compression excessive */
 }
@@ -43,23 +43,23 @@
     font-weight: normal;
 }
 
-.footer-section span {
+.footer-section1 span {
     font-size: 15px;
 }
-.social-media-section .fa-facebook {
+.social-media-section1 .fa-facebook {
     font-size: 24px; /* Or your desired size */
     color: #3b5998; /* Facebook color */
     margin-right: 10px;
   }
   
-  .social-media-section a {
+  .social-media-section1 a {
     display: inline-block;
     margin-top: 10px;
   }
   
   /* You may add :hover and :focus styles for better user experience */
-  .social-media-section a:hover,
-  .social-media-section a:focus {
+  .social-media-section1 a:hover,
+  .social-media-section1 a:focus {
     text-decoration: none;
     opacity: 0.8;
   }
@@ -68,26 +68,36 @@
 
 /* Écrans moyens (tablettes) */
 @media only screen and (max-width: 768px) {
-    .footer-section,
-    .footer {
+    .footer-section1,
+    .footer1 {
         flex-direction: column;
         flex-basis: 50%; /* Prend 50% de la largeur de l'écran */
+    }
+    .social-media-section1 {
+        flex-direction: column;
+        margin-left: 15px;
+        gap: 20px;
+      }
+      .footer-section1 {
+        flex-basis: 100%; /* Prend toute la largeur de l'écran */
+        margin-left: 15px;
     }
 }
 
 /* Écrans petits (mobiles) */
 @media only screen and (max-width: 480px) {
-    .footer-content {
+    .footer-content1 {
         flex-direction: column;
         gap: 20px; /* Augmente l'espacement */
     }
-    .footer-section {
+    .footer1{
+        overflow: hidden;
+    }
+    .footer-section1 {
         flex-basis: 100%; /* Prend toute la largeur de l'écran */
         margin-bottom: 15px;
     }
-    .footer-section span {
-        font-size: 18px; /* Ajuste la taille du texte */
-    }
+    
 }
 
 /* Écrans très larges */
@@ -95,14 +105,8 @@
     :root {
         --footer-column-gap: 20px; /* Augmente l'espacement entre les colonnes */
     }
-    .footer-content {
+    .footer-content1 {
         padding: 0 30px;
         max-width: none;
-    }
-    .footer-section h4 {
-        font-size: 36px; /* Taille de la police pour les grands écrans */
-    }
-    .footer-section span {
-        font-size: 24px; /* Taille de la police pour les grands écrans */
-    }
+    }  
 }
