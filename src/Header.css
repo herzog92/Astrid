@@ -81,8 +81,11 @@ nav ul .dropdown.show {
 
 @media only screen and (max-width: 768px) {
   nav {
-      display: none;
-      width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
   }
 
   nav.active {
