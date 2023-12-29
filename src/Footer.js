@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 
 function Footer() {
+
+
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!isMenuOpen);
+    };
+
+
     return (
         <div className="footer1">
             <div className="footer-content1">
@@ -43,6 +53,7 @@ function Footer() {
                     <span>Montag-Freitag</span>
                     <span>von 9 bis 17 Uhr</span>
                 </div>
+                <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>Datenschutzerklärung</Link></li>
             </div>
             </div>
     );

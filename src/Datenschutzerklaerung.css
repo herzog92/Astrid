@@ -1,0 +1,31 @@
+/* Style de base pour tous les écrans */
+.datenschutzerklaerung-page {
+    overflow-x: hidden;
+    margin-top: 80;
+    padding: 90px; /* Ajout de la marge de 10px autour de la page */
+    font-family: Arial, sans-serif;
+}
+
+.Datenschutzerklaerung-text {
+    padding: 20px 0;
+    color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; /* Définir l'affichage en colonne */
+    align-items: center; /* Aligner les éléments au centre horizontalement */
+    text-align: center; /* Centrer le texte */
+    
+
+}
+.Datenschutzerklaerung-text h2 {
+    margin-bottom: 60px; /* Ajouter un peu d'espace sous le titre */
+}
+
+/* Utilisation de media queries pour ajuster le style en fonction de la taille de l'écran */
+@media only screen and (max-width: 480px) {
+    .Datenschutzerklaerung-page {
+        flex-direction: column; /* Affichage en colonne sur les petits écrans */
+    }
+    
+}

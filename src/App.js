@@ -14,6 +14,7 @@ import Pentesting from './Pentesting.js';
 import Entwicklung from './Entwicklung.js';
 import Test from './Test.js';
 import Testt from './Testt.js';
+import Datenschutzerklaerung from './Datenschutzerklaerung.js';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
                         <Route path="/Entwicklung" element={<Entwicklung />} />
                         <Route path="/Test" element={<Test/>} />
                         <Route path="/Testt" element={<Testt/>} />
+                        <Route path="/Datenschutzerklaerung" element={<Datenschutzerklaerung/>} />
                         
                     </Routes>
                 </main>

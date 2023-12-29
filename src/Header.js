@@ -19,7 +19,7 @@ function Header() {
     return (
         <header className="app-header">
             <div className="logo">
-                <img src={logo} alt="All-Activity-group Logo2" className="logo-image" />
+                <img src={logo} alt="AT-consulting Logo2" className="logo-image" />
                 AT-consulting
             </div>
             <button className="menu-toggle" onClick={toggleMenu}>
