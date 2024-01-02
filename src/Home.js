@@ -79,17 +79,18 @@ function Home ()  {
         ))}
     
 </div>
+</div>
 
-                </div>
-            
-            
+
             <div className="sectiona2">
                 <div className="sectiona2-text">
                     <h2>Informationssicherheitsmanagement und Zertifizierungsvorbereitung</h2>
                     Unsere Experten unterstützen Sie bei der Umsetzung von Mindestanforderungen an die Führung, Organisation, Planung, Unterstützung, Betrieb und Verbesserung. Wir bereiten Ihr Unternehmen auf die ISO 27001-Zertifizierung vor und gewährleisten eine lückenlose Umsetzung.
                 </div>
                 <img src="/image012.webp" alt="Visual representation" className="section1-img" />
-            </div>
+                </div>
+
+
             <div className="section001-style">
           <h1>Netzwerkanalyse für Maximale Sicherheit</h1>
           <p>
@@ -109,8 +110,6 @@ function Home ()  {
                 </div>
               </div>
 
-
-
             <div className="sectiona3">
                 <img src="/image005.webp" alt="Visual representation" className="section1-img"/>
                 <div className="sectiona3-text">
@@ -118,12 +117,8 @@ function Home ()  {
                     Wir bieten Unterstützung bei der Implementierung von organisatorischen und technischen Vorgaben zur Steigerung der Informationssicherheit. Unsere Dienstleistungen umfassen die Überwachung von IT-Sicherheitsstrukturen, Risikobewertungen und die Begleitung von internen sowie externen Audits.
                 </div>
             </div>
-
-           
             </div>
-    
     );
 }
-
 
 export default Home;

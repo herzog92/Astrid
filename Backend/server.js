@@ -7,7 +7,7 @@ const axios = require('axios');
 dotenv.config(); // Charger les variables d'environnement depuis .env
 
 const app = express();
-const PORT = 3001;
+const PORT = 3002;
 
 // Middleware pour JSON et CORS
 app.use(express.json());

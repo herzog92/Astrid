@@ -10,7 +10,7 @@ function Cloudd() {
 <div className="background-section-Cloudd">
                     <div className="overlay-text">
                         <h1>Herzlich willkommen</h1>
-                        <h2>bei AT Solution UG</h2>
+                        <h2>bei Thom-Consulting</h2>
                         
                     </div>
                 </div>

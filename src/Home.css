@@ -28,7 +28,7 @@
   
 .sectiona2{
     display: flex;
-    flex-direction: row     ;
+    flex-direction: row;
     align-items: center;
     margin-top: 20px;
     background-color: rgb(7, 7, 39);
@@ -36,7 +36,7 @@
 }
 .sectiona3{
     display: flex;
-    flex-direction: row    ;
+    flex-direction: row;
     align-items: center;
     margin-top: 20px;
     background-color:rgb(7, 7, 39);
@@ -51,6 +51,7 @@
     margin-top: 20px;
     background-color:white;
 }
+
 .sectiona3-text,
 .sectiona1-text,
 .sectiona2-text{
@@ -67,8 +68,6 @@
     width: 100%;
     margin-bottom: 50px;
 }
-
-
 
 .sectiona8 {
     background-color: antiquewhite;
@@ -117,18 +116,18 @@
     .sectiona2,
     .sectiona3,
     .sectiona1 {
-        flex-direction: column;
+        flex-direction: column;  
     }
 
     .sectiona1-img
     .sectiona2-img{
         margin-bottom: 10px;
     }
-    .sectiona3-text
-    .sectiona1-text
+    
+    .sectiona3-text,
+    .sectiona1-text,
     .sectiona2-text{
         padding: 0.5rem;
-        margin-bottom: 15px;
-    }
-      
+        margin-bottom: 15px; 
+    }   
 }
