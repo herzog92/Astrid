@@ -27,17 +27,17 @@ function Home ()  {
         {
           id: 1,
           title: "     Regierungen & Behörden",
-          text: "...................................... "
+          text: "Im Regierungsbereich führen wir Funktionstests für Verwaltungsverfahren durch und setze dabei eine agile Methodik ein, um Effizienz und Transparenz zu verbessern. Unsere Erfahrung als leitender Tester umfasst umfassende Sicherheits- und Compliance-Audits, um die Integrität der Regierungsinformationssysteme zu gewährleisten. Als Berater tragen wir zur Optimierung von Informationsmanagementsystemen bei und stärke so die Fähigkeiten der Regierung, ihre Bürger effektiv und sicher zu bedienen. "
         },
         {
           id: 2,
           title: "Healthcare",
-          text: "..............was hast du schon hier gemacht."
+          text: "Als erfahrener , sind wir auf Funktionstests von medizinischen Verfahren spezialisiert und gewährleiste die Einhaltung strenger Qualitäts- und Sicherheitsstandards im Gesundheitswesen. Unsere Erfahrung als Qualitätsmanager im Gesundheitssektor umfasst auch umfassende Datenschutzaudits, um die Vertraulichkeit und Integrität sensibler medizinischer Informationen zu gewährleisten."
         },
         {
           id: 3,
           title: "Automobile industrie",
-          text: "................................. "
+          text: "unsere Expertise erstreckt sich auf die Automobilindustrie, wo wir eine entscheidende Rolle als Qualitätssicherungsingenieur für Sicherheit spiele. wir führen Codeanalysen gemäß Spice-Standards durch und trage so zur Zuverlässigkeit von Embedded-Systemen bei. Unsere Position als leitender Tester umfasst gründliche Bewertungen, um die Einhaltung höchster Standards für die Automobilsicherheit sicherzustellen und so den Schutz von Fahrern und Insassen zu gewährleisten. "
         }
         // ... Vous pouvez ajouter plus d'objets ici
       ]

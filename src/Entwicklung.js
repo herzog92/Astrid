@@ -4,9 +4,9 @@ import './Entwicklung.css';
 function Entwicklung() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const images = [
-    { src: require('./image006.webp'), alt: 'Image 006', caption: 'Caption xjhbfdgidhguosediöugrehgrseuj1' },
-    { src: require('./image007.webp'), alt: 'Image 007', caption: 'Caption 2' },
-    { src: require('./image008.webp'), alt: 'Image 008', caption: 'Caption 3' },
+    { src: require('./image006.webp'), alt: 'Image 006', caption: 'Produktivität' },
+    { src: require('./image007.webp'), alt: 'Image 007', caption: 'sorgfälltig' },
+    { src: require('./image008.webp'), alt: 'Image 008', caption: 'Zusammen Arbeit' },
   ];
 
   const handlePrevClick = () => {

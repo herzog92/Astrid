@@ -7,18 +7,18 @@ function Security() {
   const [rectanglesData] = useState([
     {
       id: 1,
-      title: "und heraus",
-      text: "Wkräfte dürfnisse anpassen."
+      title: "Herausforderungen in der IT-Sicherheit: Gemeinsam meistern wir komplexe Bedrohungen",
+      text: "Die zunehmende Komplexität von Cyberbedrohungen erfordert innovative Lösungen und eine proaktive Herangehensweise an die IT-Sicherheit. Unsere Experten stehen vor den Herausforderungen der sich ständig weiterentwickelnden Bedrohungslandschaft. Gemeinsam entwickeln wir Strategien, um komplexe Herausforderungen zu bewältigen und Ihre IT-Infrastruktur sicher und geschützt zu halten."
     },
     {
       id: 2,
-      title: "Teamkompetenz e",
-      text: "Wir gen großen Werttierung."
+      title: "Flexibilität in der IT-Sicherheit: Anpassungsfähige Lösungen für moderne Herausforderungen",
+      text: "Die moderne IT-Landschaft ist von ständigen Veränderungen geprägt, und Flexibilität ist der Schlüssel zur Bewältigung neuer Herausforderungen. Unsere flexiblen Sicherheitslösungen passen sich dynamisch an sich entwickelnde Bedrohungen an. Mit einem agilen Ansatz bieten wir individuelle Lösungen, die sich an Ihre spezifischen Anforderungen anpassen und gleichzeitig höchste Sicherheitsstandards gewährleisten."
     },
     {
       id: 3,
-      title: "Flexibilität ",
-      text: "Wir stuationen animieren."
+      title: "Zuverlässigkeit in der IT-Sicherheit: Vertrauen Sie auf unsere Expertise",
+      text: "Verlässlichkeit ist entscheidend, wenn es um die Sicherheit Ihrer IT-Infrastruktur geht. Mit unserem Team erfahrener Sicherheitsexperten bieten wir eine zuverlässige Lösung für den Schutz Ihrer sensiblen Daten und Systeme. Von fortschrittlichen Sicherheitsaudits bis zur Implementierung robuster Schutzmaßnahmen sorgen wir dafür, dass Sie sich auf die Integrität Ihrer IT verlassen können."
     }
     // ... Vous pouvez ajouter plus d'objets ici
   ]);

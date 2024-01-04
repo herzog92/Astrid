@@ -34,49 +34,43 @@ function Management() {
 
       <ParallaxProvider>
         <div className="management-page">
-          <div className="background-section-Management">
-            <div className="overlay-text">
-              <h1>Herzlich willkommen</h1>
-              <h2>bei All-activity-group </h2>
-            </div>
-          </div>
+          
 
           <div className="rectangle03">
             <div className="image-container">
-              <img src="image11.jpg" alt="Management" />
+              <img src="image015.webp" alt="Management"className="rectangle03-img" />
             </div>
             <div className="text-container">
               <div className="column">
-                <h3>Qualität, die überzeugt</h3>
-                <p>Unsere Dienstleistungen sind geprägt von höchster Qualität und Liebe zum Detail, sodass Ihre Veranstaltung reibungslos und beeindruckend verläuft.</p>
+                <h3>IT-Risikomanagement: Gemeinsam entwickeln wir effektive Strategien zur Risikominimierung</h3>
+                <p>Im Bereich des IT-Risikomanagements bieten wir umfassende Expertise, um Organisationen bei der Identifizierung, Bewertung und Minimierung von Risiken zu unterstützen. Durch die Anwendung bewährter Methoden und den Einsatz modernster Technologien tragen wir dazu bei, das IT-Risikomanagement zu stärken und kritische Geschäftsprozesse zu schützen.</p>
               </div>
               <div className="column">
-                <h3> Expertise & Engagement</h3>
-                <p>Dank jahrelanger Erfahrung und einem engagierten Team bieten wir Ihnen nicht nur Expertise, sondern auch das nötige Engagement, um Ihr Event zu einem vollen Erfolg zu machen</p>
+                <h3> Projektmanagement: Gemeinsam realisieren wir erfolgreiches Projektmanagement</h3>
+                <p>Als erfahrener Projektmanager setzen wir uns für die erfolgreiche Umsetzung und Kontrolle von Projekten ein. Unsere Fähigkeiten erstrecken sich über den gesamten Projektlebenszyklus, von der Planung bis zur Implementierung. Mit einem klaren Fokus auf Teamkoordination und effiziente Ressourcennutzung sorgen wir dafür, dass Projekte termingerecht und im Rahmen des Budgets abgeschlossen werden.</p>
               </div>
             </div>
           </div>
 
           <div className="section-4">
-            <h1>Erfolgreiches Eventmanagement mit All-activity-group </h1>
+            <h1>Change Management: Umfassende Ansätze für erfolgreiche Veränderungen</h1>
             <p>
-              In der Welt der Veranstaltungen ist das richtige Management der Schlüssel zum Erfolg. Bei All-activity-group vereinen wir Fachwissen mit Leidenschaft, um jedes Event in ein unvergessliches Erlebnis zu verwandeln. Unsere langjährige Erfahrung ermöglicht es uns, auf die feinsten Details zu achten und gleichzeitig den großen Überblick zu behalten. Von der Konzeption bis zur Umsetzung, unsere Experten begleiten Sie in jeder Phase, um sicherzustellen, dass Ihre Veranstaltung nicht nur den Erwartungen entspricht, sondern diese übertrifft. Vertrauen Sie auf unser Engagement und unsere Expertise für Ihr nächstes Event.
-            </p>
+            Im Change Management konzentrieren wir uns auf umfassende Ansätze, um Veränderungen erfolgreich in Organisationen zu bewältigen. Unser Ziel ist es, Widerstände zu minimieren und eine positive Einstellung gegenüber Veränderungen zu fördern. Durch klare Kommunikation und gezielte Schulungen unterstützen wir Teams dabei, sich an neue Situationen anzupassen. </p>
           </div>
 
           <div className="rectangle03">
             <div className="text-container">
               <div className="column">
-                <h3> Erfahrene Eventmanager</h3>
-                <p>Unsere Eventmanager bringen nicht nur Erfahrung, sondern auch Leidenschaft mit. Ihr Event ist bei uns in den besten Händen, von Anfang bis Ende.</p>
+                <h3> Qualitätsmanagement: Sicherstellung höchster Qualitätsstandards</h3>
+                <p >Als Experte im Qualitätsmanagement setzen wir uns dafür ein, dass Organisationen die höchsten Qualitätsstandards erreichen und aufrechterhalten. Von der Umsetzung von Qualitätsrichtlinien bis zur Durchführung von Audits arbeiten wir eng mit Teams zusammen, um sicherzustellen, dass Prozesse und Produkte den strengen Qualitätsanforderungen entsprechen.</p>
               </div>
               <div className="column">
-                <h3>Individuelle Planung</h3>
-                <p>Jedes Event ist einzigartig. Unser Team nimmt sich die Zeit, Ihre Wünsche zu verstehen und individuell zu planen.</p>
+                <h3>IT-Sicherheit: Gewährleistung der Integrität von Informationssystemen</h3>
+                <p>Im Bereich IT-Sicherheit liegt unser Fokus auf der Gewährleistung der Integrität von Informationssystemen. Durch regelmäßige Sicherheitsaudits und die Implementierung fortschrittlicher Sicherheitsprotokolle tragen wir dazu bei, Daten vor Bedrohungen zu schützen und die Vertraulichkeit sensibler Informationen zu bewahren.</p>
               </div>
             </div>
             <div className="image-container">
-              <img src="image4.webp" alt="Management" />
+              <img src="image014.webp" alt="Management" />
             </div>
           </div>
         </div>

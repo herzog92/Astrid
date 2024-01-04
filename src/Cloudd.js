@@ -72,7 +72,7 @@ function Cloudd() {
                     </div>
                 </div>
                 <div className=" sectiona1">
-                <img src="/image001.webp" alt="Visual representation" className="section1-img" />
+                <img src="/image013.webp" alt="Visual representation" className="section1-img" />
                 <div className="sectiona1-text">
                     <h2>Für wen sind unsere Kurse geeignet?</h2>
                     Unsere Schulungen richten sich an Sicherheitsbeauftragte, Datenschutzbeauftragte und Risikomanager. Sie sind konzipiert, um Fachkräften das notwendige Wissen und die Fähigkeiten zu vermitteln, um den Herausforderungen in den Bereichen IT-Sicherheit und Datenschutz erfolgreich zu begegnen. </div>

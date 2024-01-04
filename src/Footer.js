@@ -21,7 +21,7 @@ function Footer() {
                 <div className="footer-section1">
                     <h4>Kontakt</h4>
                     <span>Email: astrid.thom1@gmx.de</span>
-                    <span>Email: herzogmoffo@gmail.com</span>
+                    <span>Email: info@thom-consulting.tech</span>
                     <span>Postanschrift: Bessemerstr 9, 90411 Nürnberg</span>
                     <span>Telefonnummer: +49 176 43546046</span>
                     <span>oder: +49 15223755363</span>

@@ -13,7 +13,7 @@ function Datenschutzerklaerung(){
                 <p>AT-CONSULTING<br />
                    Bessemer Str. 9, Nürnberg<br />
                    Tel: 07643546046<br />
-                   Email: [Ihre E-Mail-Adresse]</p>
+                   Email:info@thom-consulting.tech</p>
 
                 <p><strong>Erhebung personenbezogener Daten:</strong></p>
                 <p>Wir erheben und verarbeiten personenbezogene Daten der Kunden im Rahmen der Auftragsverarbeitung gemäß Art. 26 DSGVO. Die Grundsätze der Datenverarbeitung nach Art. 5 DSGVO werden eingehalten. Diese umfassen:</p>

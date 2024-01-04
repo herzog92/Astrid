@@ -194,7 +194,7 @@
   }
   .section0001-image{
     flex: 1;
-    background-color: white;
+    
     object-fit: cover;
     width: 100%;
     overflow: hidden;
