@@ -3,58 +3,70 @@ const cors = require('cors');
 const path = require('path');
 const dotenv = require('dotenv');
 const axios = require('axios');
+const nodemailer = require("nodemailer");
 
-dotenv.config(); // Charger les variables d'environnement depuis .env
+dotenv.config(); // Load environment variables from .env file
 
 const app = express();
-const PORT = 3002;
+const PORT = process.env.PORT || 3002; // Use the PORT from environment variables if available
 
-// Middleware pour JSON et CORS
+// Middleware for JSON and CORS
 app.use(express.json());
 app.use(cors());
 
-// Renvoyer le fichier index.html pour toutes les requêtes GET à la racine
+// Serve the index.html file for all GET requests to the root
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Endpoint pour l'envoi d'email
+// Email sending endpoint
 app.post('/send-email', async (req, res) => {
     const { nom, prenom, tel, email, devis } = req.body;
 
-    const bodyFormData = new URLSearchParams();
-    bodyFormData.append('apikey', process.env.ELASTIC_API_KEY);
-    bodyFormData.append('from', 'votre_email@email.com');
-    bodyFormData.append('fromName', 'Votre Nom');
-    bodyFormData.append('to', 'herzogmoffo@gmail.com');
-    bodyFormData.append('subject', `Neue Nachricht von ${nom} ${prenom}`);
-    bodyFormData.append('bodyHtml', `
-        <p>Name: ${nom}</p>
-        <p>Vorname: ${prenom}</p>
-        <p>Tel: ${tel}</p>
-        <p>Email: ${email}</p>
-        <p>Angebot: ${devis}</p>
-    `);
+    // Configure Nodemailer transport
+    const transporter = nodemailer.createTransport({
+        host: "smtp.strato.de", // Replace with your SMTP server host
+        port: 465, // Secure port (for SSL)
+        secure: true,
+        auth: {
+            user: "info@thom-consulting.tech", // Replace with your SMTP server username
+            pass: "^?a%He2|9V9S", // Replace with your SMTP server password
+        },
+    });
+
+    // Email content
+    const mailOptions = {
+        from: '"Your Name" <your_email@example.com>', // Sender address
+        to: "info@thom-consulting.tech", // Receiver address
+        subject: `New message from ${nom} ${prenom}`, // Subject line
+        html: `
+            <p>Name: ${nom}</p>
+            <p>Vorname: ${prenom}</p>
+            <p>Tel: ${tel}</p>
+            <p>Email: ${email}</p>
+            <p>Angebot: ${devis}</p>
+        `, // HTML body content
+    };
 
     try {
-        await axios.post('https://api.elasticemail.com/v2/email/send', bodyFormData);
+        // Send email
+        await transporter.sendMail(mailOptions);
         res.json({ success: true });
     } catch (error) {
-        console.error("Fehler beim Senden der E-Mail:", error);
+        console.error("Error sending email:", error);
         res.json({ success: false });
     }
 });
 
-app.listen(PORT, () => {
-    console.log(`Server läuft auf http://localhost:${PORT}`);
-});
-
-// Serve static assets if in production
+// Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
-    // Set static folder
     app.use(express.static('client/build'));
     app.get('*', (req, res) => {
         res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
     });
 }
 
+// Start the server
+app.listen(PORT, () => {
+    console.log(`Server running at http://localhost:${PORT}`);
+});
