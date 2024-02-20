@@ -15,8 +15,9 @@
 }
 
 .logo-image {
+  margin-left: 70px;
   height: auto; /* Adjust height automatically */
-    max-width: 200px; /* Set maximum width for the logo image */
+    max-width: 100px; /* Set maximum width for the logo image */
     width: auto; /* Adjust width automatically */
 }
 

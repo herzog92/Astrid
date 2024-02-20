@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from './logo1.svg'; 
+import logo from './logo.webp'; 
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ function Header() {
         <header className="app-header">
             <div className="logo">
                 <img src={logo} alt="AT-consulting Logo2" className="logo-image" />
-                Thom-Consulting
+                
             </div>
             <button className="menu-toggle" onClick={toggleMenu}>
                 ☰

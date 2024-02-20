@@ -30,7 +30,7 @@ function Footer() {
                 
                 <div className="footer-section social-media-section1">
                     <h4>Folgen Sie uns</h4>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/profile.php?id=61556030981917" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
                     </div>
