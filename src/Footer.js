@@ -33,6 +33,7 @@ function Footer() {
                     <a href="https://www.facebook.com/profile.php?id=61556030981917" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
+                   
                     </div>
                    
                 <div className="footer-section1">
@@ -52,10 +53,21 @@ function Footer() {
                     <h4>Öffnungszeiten</h4>
                     <span>Montag-Freitag</span>
                     <span>von 9 bis 17 Uhr</span>
-                </div>
-                <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>Datenschutzerklärung</Link></li>
+                    </div>
+
+         
+                    <div className="backlinkcontenar">
+            <div className="backlink">
+                    <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>Datenschutzerklärung</Link></li>
+
+                    </div>
+            </div>
+                
             </div>
             </div>
+            
+            
+            
     );
 }
 
