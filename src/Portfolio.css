@@ -28,7 +28,7 @@
 
 /* Section 2 */
 .section02 {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(218, 215, 215);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -38,7 +38,7 @@
 }
 
 .rectangle-container {
-  background-color: (238, 238, 238);
+  background-color: rgb(218, 215, 215);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@
 }
 
 .rectangle {
-  background-color: rgb(7, 7, 39) !important;
+ background-color: rgb(255, 255, 255);
   border: none !important;
   border-radius: 50px !important;
   width: 400px;
@@ -63,7 +63,7 @@
 }
 
 .rectangle h2 {
-  color: rgb(7, 165, 139);
+  color: rgb(0, 0, 0);
   margin-left: 30px;
   margin-bottom: 10px;
   font-size: 1.2em;
@@ -72,7 +72,7 @@
 }
 
 .rectangle p {
-  color: rgb(7, 165, 139);
+  color: rgb(0, 0, 0);
   margin-top: 0;
   font-size: 0.9em;
   line-height: 1.8;

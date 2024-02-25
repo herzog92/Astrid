@@ -15,6 +15,9 @@ import Entwicklung from './Entwicklung.js';
 import Test from './Test.js';
 import Testt from './Testt.js';
 import Datenschutzerklaerung from './Datenschutzerklaerung.js';
+import AGB from './AGB.js';
+import Impressum from './Impressum.js';
+import unternehmen from './unternehmen.js';
 
 
 function App() {
@@ -36,6 +39,9 @@ function App() {
                         <Route path="/Entwicklung" element={<Entwicklung />} />
                         <Route path="/Test" element={<Test/>} />
                         <Route path="/Testt" element={<Testt/>} />
+                        <Route path="/AGB" element={<AGB/>} />
+                        <Route path="/Impressum" element={<Impressum/>} />
+                        <Route path="/unternehmen" element={<unternehmennternehmen/>} />
                         <Route path="/Datenschutzerklaerung" element={<Datenschutzerklaerung/>} />
                         
                     </Routes>

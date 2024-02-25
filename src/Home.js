@@ -92,10 +92,8 @@ function Home ()  {
 
 
             <div className="section001-style">
-          <h1>Netzwerkanalyse für Maximale Sicherheit</h1>
-          <p>
-          Unsere umfassende Netzwerkanalyse ist der Schlüssel zur Maximierung der Sicherheit Ihres Unternehmens. Durch sorgfältige Prüfung und Detektion von Sicherheitslücken identifizieren wir potenzielle Risiken in Ihrem Netzwerk. Unser Team von Experten bietet maßgeschneiderte Lösungen, um diese Schwachstellen zu beheben und ein Höchstmaß an Sicherheit für Ihr Unternehmensnetzwerk zu gewährleisten. Vertrauen Sie auf unsere Fachkenntnisse, um Ihr Netzwerk zu schützen und die digitale Infrastruktur Ihres Unternehmens zu stärken..
-          </p>
+          <h1>Thom-consulting</h1>
+          <p>Unsere Expertise umfasst Beratungsdienste in verschiedenen Schlüsselbereichen der Informationstechnologie, darunter TISAX, CISSP, ISO 27001, IT-Administration, Netzwerksicherheit, Netzwerksicherheit mit BSI-Grundschutz, sowie Cloud-Computing und Datenschutz. Vertrauen Sie auf unsere Fachkenntnisse und Erfahrung, um Ihre IT-Infrastruktur zu optimieren und Ihre Daten zu schützen. Wir bieten maßgeschneiderte Lösungen, die auf Ihre spezifischen Anforderungen zugeschnitten sind, um Ihnen Sicherheit und Effizienz zu gewährleisten.</p>
         </div>   
 
 

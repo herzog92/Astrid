@@ -30,14 +30,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color:rgb(0, 0, 0);
+    background-color:white;
     
 }
 .sectiona3{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color:rgb(10, 9, 9);
+    background-color:white;
     
 }
 
@@ -46,13 +46,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color:rgb(44, 43, 43);
+    background-color:rgb(229, 226, 226);
 }
 
 .sectiona3-text,
 .sectiona1-text,
 .sectiona2-text{
-   color: white;
+   color: black;
     padding: 2rem;
     width: 100%;
     text-align: left;

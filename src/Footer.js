@@ -39,8 +39,10 @@ function Footer() {
                 <div className="footer-section1">
                     <h4>Dienstleistungen</h4>
                     <ul>
-                        <li>Netzwerk Spezialist</li>
-                        <li>IT Administrator Spezialist</li>
+                        <li>Beratung zu TISAX</li> 
+                        <li>Beratung zu CISSP</li>
+                        <li>ISO 27001 Consulting</li>
+                        <li>IT Administrator </li>
                         <li>Netzwerk Sicherheit </li>
                         <li>Netzwerk Sicherheit mit BSI Grundschutz</li>
                         <li>Cloud Computing</li>
@@ -58,7 +60,10 @@ function Footer() {
          
                     <div className="backlinkcontenar">
             <div className="backlink">
-                    <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>Datenschutzerklärung</Link></li>
+            <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>Impressum</Link></li>
+            <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>Unternehmen Politik</Link></li>
+            <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>Datenschutzerklärung</Link></li>
+                    <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>AGB</Link></li>
 
                     </div>
             </div>
