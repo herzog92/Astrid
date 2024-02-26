@@ -92,8 +92,8 @@ function Home ()  {
 
 
             <div className="section001-style">
-          <h1>Thom-consulting</h1>
-          <p>Unsere Expertise umfasst Beratungsdienste in verschiedenen Schlüsselbereichen der Informationstechnologie, darunter TISAX, CISSP, ISO 27001, IT-Administration, Netzwerksicherheit, Netzwerksicherheit mit BSI-Grundschutz, sowie Cloud-Computing und Datenschutz. Vertrauen Sie auf unsere Fachkenntnisse und Erfahrung, um Ihre IT-Infrastruktur zu optimieren und Ihre Daten zu schützen. Wir bieten maßgeschneiderte Lösungen, die auf Ihre spezifischen Anforderungen zugeschnitten sind, um Ihnen Sicherheit und Effizienz zu gewährleisten.</p>
+          <h1>Thom-Consulting</h1>
+          <p>Unsere Beratungsdienste bei Thom-Consulting umfassen eine breite Palette von Fachgebieten in der Informationstechnologie, die Ihnen helfen, Ihre Unternehmensziele zu erreichen und Ihre IT-Infrastruktur zu optimieren. Wir bieten Expertise bei der Zertifizierung nach internationalen Standards wie TISAX und ISO 27001. Unsere zertifizierten CISSP-Experten stehen Ihnen zur Verfügung, um Ihre Informationssicherheitsstrategie zu entwickeln und zu implementieren. Mit unserer Erfahrung im Bereich IT-Administration helfen wir Ihnen, effiziente Prozesse zu etablieren und Ihre IT-Infrastruktur zu verwalten. Unsere Experten für Netzwerksicherheit bieten Lösungen zur Absicherung Ihrer Netzwerkinfrastruktur. Wir unterstützen Sie bei der Umsetzung des BSI-Grundschutzstandards, um eine angemessene Sicherheitsarchitektur für Ihr Unternehmen aufzubauen. Wir bieten Beratungsdienste für die sichere Nutzung von Cloud-Services und die Einhaltung der Datenschutzbestimmungen. Vertrauen Sie auf die Expertise von Thom-Consulting, um Ihre IT-Sicherheitsziele zu erreichen und Ihre Unternehmensdaten zu schützen.</p>
         </div>   
 
 
