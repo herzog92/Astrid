@@ -41,7 +41,7 @@ function App() {
                         <Route path="/Testt" element={<Testt/>} />
                         <Route path="/AGB" element={<AGB/>} />
                         <Route path="/Impressum" element={<Impressum/>} />
-                        <Route path="/unternehmen" element={<unternehmennternehmen/>} />
+                        <Route path="/unternehmen" element={<unternehmen/>} />
                         <Route path="/Datenschutzerklaerung" element={<Datenschutzerklaerung/>} />
                         
                     </Routes>

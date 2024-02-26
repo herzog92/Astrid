@@ -7,7 +7,7 @@ function Datenschutzerklaerung(){
             <div className="Datenschutzerklaerung-text">
                 <h2>AT-CONSULTING</h2>
 
-                <p>Datenschutzerklärung für AT-CONSULTING</p>
+                <p>Impressum für AT-CONSULTING</p>
 
                 <p><strong>Verantwortliche Stelle:</strong></p>
                 <p>AT-CONSULTING<br />
@@ -15,31 +15,34 @@ function Datenschutzerklaerung(){
                    Tel: 07643546046<br />
                    Email:info@thom-consulting.tech</p>
 
-                <p><strong>Erhebung personenbezogener Daten:</strong></p>
-                <p>Wir erheben und verarbeiten personenbezogene Daten der Kunden im Rahmen der Auftragsverarbeitung gemäß Art. 26 DSGVO. Die Grundsätze der Datenverarbeitung nach Art. 5 DSGVO werden eingehalten. Diese umfassen:</p>
+                <p><strong>Haftungsausschluss:</strong></p>
+                <p>
 
-                <ul>
-                    <li>Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz</li>
-                    <li>Zweckbindung</li>
-                    <li>Datenminimierung</li>
-                    <li>Richtigkeit</li>
-                    <li>Speicherbegrenzung</li>
-                    <li>Integrität und Vertraulichkeit</li>
-                </ul>
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
 
-                <p><strong>Die Sicherheit der Verarbeitung erfolgt gemäß Art. 32 DSGVO durch geeignete technische und organisatorische Maßnahmen. Diese Maßnahmen umfassen:</strong></p>
+​
+
+Thom-Consulting erhebt keinen Anspruch auf Absolutheit oder Vollständigkeit der auf seiner Website getätigten Äußerungen oder erbrachten Leistungen. Alle von uns angebotenen Beratungsleistungen basieren auf ISO-Normen sowie langjähriger Praxis- und Branchenerfahrung. Die auf der Website gemachten Aussagen werden nach bestem Wissen und Gewissen bereitgestellt, stellen jedoch ausdrücklich KEINE Rechtsberatung dar.
+
+​
+
+Rechtlicher Hinweis:
+
+TISAX® ist eine eingetragene Marke der ENX Association. Zwischen Thom-Consulting und der ENX Association besteht hinsichtlich der vorstehend beschriebenen Beratungsleistungen keine rechtliche oder sonstige wirtschaftliche Beziehung. Mit der Nennung der Marke TISAX® ist keine Aussage des Markeninhabers zur Geeignetheit der hier beworbenen Leistungen verbunden.
+
+​
+
+Thom-Consulting bietet Dienstleistungen im Bereich des Informationssicherheitsmanagements, die auf TISAX®-Anforderungen ausgerichtet sind. Wir übernehmen keine Prüfleistungen im Sinne der von der ENX Association zugelassenen Prüfdienstleister. Unsere Beratungsleistungen dienen ausschließlich dazu, Mandanten erfolgreich und effizient auf die Erfüllung der Anforderungen gemäß TISAX® vorzubereiten.
+
+​
+
+Die Informationen zum TISAX®-Rechteinhaber ENX sind auf www.enx.com zu finden.
+
+Zusätzlich bieten wir Beratungsleistungen im Bereich der CISSP- und CCNA-Zertifizierung an, um sicherzustellen, dass unsere Kunden über hochqualifizierte und zertifizierte Fachkräfte verfügen.</p>
+
                 
-                <ul>
-                    <li>Pseudonymisierung und Verschlüsselung personenbezogener Daten</li>
-                    <li>Gewährleistung der Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit der Systeme</li>
-                    <li>Fähigkeit zur raschen Wiederherstellung nach einem Zwischenfall</li>
-                    <li>Regelmäßige Überprüfung und Bewertung der Maßnahmen</li>
-                </ul>
 
-                <p><strong>Der Umgang mit Risiken wird durch eine angemessene Schutzstufe und Berücksichtigung möglicher Risiken geregelt. Zugangsregeln zum Schutz personenbezogener Daten stellen sicher, dass berechtigte Personen diese nur gemäß den Anweisungen verarbeiten.</strong></p>
-
-                <p><strong>Verwendung personenbezogener Daten:</strong></p>
-                <p>Die gesammelten Daten dienen IT-Consulting-Dienstleistungen im Bereich Netzwerk, Sicherheit und Cloud. Die Rechtsgrundlage ergibt sich aus Vertragserfüllung und dem berechtigten Interesse an der Verbesserung der Dienstleistungen</p>
+                
             </div>
         </div>
     );

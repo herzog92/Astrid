@@ -60,10 +60,10 @@ function Footer() {
          
                     <div className="backlinkcontenar">
             <div className="backlink">
-            <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>Impressum</Link></li>
-            <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>Unternehmen Politik</Link></li>
+            <li><Link to="/Impressum" onClick={toggleMenu}>Impressum</Link></li>
+            <li><Link to="/unternehmen" onClick={toggleMenu}>unternehmen Politik</Link></li>
             <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>Datenschutzerklärung</Link></li>
-                    <li><Link to="/Datenschutzerklaerung" onClick={toggleMenu}>AGB</Link></li>
+                    <li><Link to="/AGB" onClick={toggleMenu}>AGB</Link></li>
 
                     </div>
             </div>
